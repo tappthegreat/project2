@@ -1,0 +1,2 @@
+Im am the best player in the world
+cat > file1.txt
