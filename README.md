@@ -27,3 +27,32 @@ if the users home directory existed and it did BUT, there you have be careful no
 #17
 For loop
 For some reason, I could not get the for loop to work within my bash. There are no compilation errors, it just doesn't execute. When I added the new commands as notes with "#" it worked. I'll have to look more into why this isn't working, because the tutorial is either not telling me correctly, or it's an error on my part.
+
+
+
+		"Code Review (Rudy Carreon)"
+
+So, I forked your Project 2 back when it was due. I was looking at the forked items this week and saw that some of the code was missing. I am not sure if you ever went back to add that in, but #17 in your README.md file does say that you could not get the For loop to work. I did want to show you the code I have for the the while.sh and until.sh sections. I don't believe I was able to get the for loop to work in my program too. Here is the code I have for the while.sh if you decide to use it:
+
+while.sh
+
+#!/bin/bash
+
+counter = 2
+while [ $counter -lt 3]; do
+	let counter += 1
+	echo $counter
+done
+
+Here is the code for the until.sh
+
+#!/bin/bash
+
+counter = 4
+until [$counter -lt 3]; do
+	let counter -= 1
+	echo $counter
+done
+
+I hope this helps with your project. The other recommendation that I have is possibly having all the code in your master to be in the main with your README.md file. Maybe I misunderstood Project2, but I think you create a copy of all the code, create the README.md file separately, and then push it through with the original. After that, you'd be able to delete the copy and just be left with the main that holds everything.
+
