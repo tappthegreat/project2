@@ -54,5 +54,5 @@ until [$counter -lt 3]; do
 	echo $counter
 done
 
-I hope this helps with your project. The other recommendation that I have is possibly having all the code in your master to be in the main with your README.md file. Maybe I misunderstood Project2, but I think you create a copy of all the code, create the README.md file separately, and then push it through with the original. After that, you'd be able to delete the copy and just be left with the main that holds everything.
+I hope this helps with your project. Let me know what you think. The other recommendation that I have is possibly having all the code in your master to be in the main with your README.md file. Maybe I misunderstood Project2, but I think you create a copy of all the code, create the README.md file separately, and then push it through with the original. After that, you'd be able to delete the copy and just be left with the main that holds everything.
 
